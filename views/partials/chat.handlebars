@@ -1,0 +1,16 @@
+<section class="conversation" aria-labelledby="conversation-title" aria-describedby="history-note">
+  <h2 class="sr-only" id="conversation-title">Conversación</h2>
+  <span class="sr-only" id="message-count">0 mensajes</span>
+  <p class="chat-notice" id="chat-notice" role="status" hidden></p>
+  <div class="chat-log" id="chat-messages" role="log" aria-label="Mensajes del chat" aria-live="polite" aria-relevant="additions text" tabindex="0">
+    <div class="empty-state" id="chat-empty">
+      <svg viewBox="0 0 32 32" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+        <path d="M25 5H7a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h4v5l6-5h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3Z" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M10 12h12M10 17h8" stroke-linecap="round"/>
+      </svg>
+      <h3>Todavía no hay mensajes</h3>
+      <p>Escribe el primero.</p>
+    </div>
+  </div>
+  <p class="sr-only" id="history-note">Se conservan hasta 100 mensajes recientes. El historial se borra al reiniciar el servidor.</p>
+</section>

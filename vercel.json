@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "express",
+  "functions": {
+    "server.js": {
+      "includeFiles": [
+        "views/**",
+        "data/**",
+        "node_modules/socket.io/client-dist/**"
+      ]
+    }
+  }
+}

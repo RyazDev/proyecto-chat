@@ -1,0 +1,17 @@
+[
+  {
+    "username": "Ana (demo)",
+    "message": "Hola. Este es un mensaje de ejemplo del chat.",
+    "advertisement": ""
+  },
+  {
+    "username": "Diego (demo)",
+    "message": "Podemos conversar desde distintas pestañas sin recargar la página.",
+    "advertisement": ""
+  },
+  {
+    "username": "Clara (demo)",
+    "message": "Escribe tu nombre y envía tu primer mensaje.",
+    "advertisement": ""
+  }
+]
